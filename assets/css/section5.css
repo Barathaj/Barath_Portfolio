@@ -134,7 +134,7 @@ a, a:hover {
   transition-delay: 0s;
 }
 
-.project__item {
+.project__ite {
   padding: 40px;
   margin-top: -10%;
   color: gray;
@@ -151,7 +151,7 @@ a, a:hover {
   box-shadow: none;
 }
 .project__item.active {
- 
+  
 }
 .project__item.active .project__title, .project__item.active .project__txt {
   opacity: 1;
@@ -161,7 +161,7 @@ a, a:hover {
 }
 
 .project__item:hover {
-  
+  color: black;
   transition-delay: 0.1s;
 }
 
