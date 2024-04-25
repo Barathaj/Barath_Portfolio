@@ -25,17 +25,17 @@ AOS.init({
 
 //Swiper.js
 var bg = document.querySelector('.item-bg');
-var items = document.querySelectorAll('.project__item');
-var item = document.querySelector('.project__item');
+var items = document.querySelectorAll('.project__ite');
+var item = document.querySelector('.project__ite');
 
 function cLog(content) {
     console.log(content)
 }
 
 if($(window).width() > 800) {
-    $(document).on("mouseover", ".project__item", function (_event, _element) {
+    $(document).on("mouseover", ".project__ite", function (_event, _element) {
 
-        var projectItem = document.querySelectorAll('.project__item');
+        
         projectItem.forEach(function (element, index) {
             element.addEventListener('mouseover', function () {
                 var x = this.getBoundingClientRect().left;
@@ -44,7 +44,7 @@ if($(window).width() > 800) {
                 var height = this.getBoundingClientRect().height;
 
                 $('.item-bg').addClass('active');
-                $('.project__item').removeClass('active');
+                $('.project__ite').removeClass('active');
                 // $('.project__item').removeClass('active');
 
 
@@ -55,7 +55,7 @@ if($(window).width() > 800) {
 
             element.addEventListener('mouseleave', function () {
                 $('.item-bg').removeClass('active');
-                $('.project__item').removeClass('active');
+                $('.project__ite').removeClass('active');
             });
 
         });
