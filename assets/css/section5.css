@@ -151,7 +151,7 @@ a, a:hover {
   box-shadow: none;
 }
 .project__item.active {
-  color: #222222;
+ 
 }
 .project__item.active .project__title, .project__item.active .project__txt {
   opacity: 1;
@@ -161,7 +161,7 @@ a, a:hover {
 }
 
 .project__item:hover {
-  color: black;
+  
   transition-delay: 0.1s;
 }
 
